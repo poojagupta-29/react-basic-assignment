@@ -21,7 +21,7 @@ export const UserProfileCard = ({ user }) => {
 
         <Card
             key={id}
-            className="min-h-[220px] border flex p-2.5 shadow-lg flex-col sm:flex-row items-center sm:items-start"
+            className="min-h-[220px] border flex p-2.5! shadow-lg flex-col sm:flex-row items-center sm:items-start"
             style={{ border: '1px solid #e8e8e8', borderRadius: 0 }}
             cover={
                 <div className='user-img flex! justify-center items-center bg-[#f5f5f5] min-w-[200px] h-full overflow-hidden' style={{ border: '1px solid #e8e8e8', borderRadius: 0 }}>
